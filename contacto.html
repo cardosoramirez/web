@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='contacto.css'>
+    <link rel="stylesheet" href="reset.css">
+
+</head>
+<body>
+    <header class="inka">
+       
+        <h1><img class="barba" src="WhatsApp Image 2023-05-07 at 7.45.40 PM.jpeg"></h1> 
+
+        <div class="caja">
+            <nav class="lista">
+                <ul >
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="producto.html">Productos</a></li>
+                    <li><a href="contacto.html">Contactos</a></li>
+               </ul>
+           </nav>
+        </div>
+    </header>
+    <main>
+        <form class="papas">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" class="input-padron" required>
+
+            <label for="correo"> Correo Electronico</label>
+            <input type="email" id="correo" class="input-padron" required placeholder="email@gmail.com">
+
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(+xxx)xxxx xxxx">
+
+            <label  for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea >
+            
+            <fieldset class="contac" >
+                <legend>Como le gustaria que lo contactemos?</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+                <label for="radio-telefono"> <input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+               
+
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsApp" id="radio-whatsapp" checked>WhatsApp</label>
+                
+            </fieldset>
+
+            <fieldset class="to">
+                <legend>En cuál horaro quiere ser atendido?</legend>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+          
+
+            <label class="checkbox"><input type="checkbox" checked>Le gustaria recibir novedades de la barberia</label>
+            <input type="submit" value="Enviar formulario" class="enviar">
+        </form>
+
+        <table class="hoy">
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+
+            <tbody >
+                <tr>
+                    <td class="hola">Lunes</td>
+                    <td class="ho">08h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td class="hola">Miércoles</td>
+                    <td class="ho">08h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td class="hola">Viernes</td>
+                    <td class="ho">08h ~ 20h</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </main>
+        
+    <footer class="bigote">
+        <div>
+            <img src="17b7ee4d6546a93456f91bcd086846bc.jpg" alt="escudo de la barberia">
+            <p> The Barbershop</p>
+        </div>
+    </footer>
+    
+</body>
+
+
+
+</html>

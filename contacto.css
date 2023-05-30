@@ -1,0 +1,135 @@
+.caja{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+header{
+    background-color: black;
+}
+.lista{
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
+
+.lista li{
+    display: inline;
+    font-size: 20px;
+    margin: 0 0 0 15px;
+    
+}
+.lista a {
+    text-transform:uppercase;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lista a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+.bigote img{
+    height: 200px;
+    width: 200px;
+   
+    
+}
+.bigote div{
+    text-align: center;
+    background-color: black;
+}
+.bigote p{
+    text-align: center;
+    color: gold;
+    font-size: 50px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding:20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background:orange ;
+    border: none;
+    border-radius: 50px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+.enviar:hover{
+    background: darkred;
+    transform: scale(1);
+}
+
+.hoy{
+    margin: 40px 40px;
+} 
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+.hola{
+    border: 1px solid azure;
+    padding: 8px 15px;
+    color: beige;
+}
+.ho{
+    border: 1px solid azure;
+    padding: 8px 15px;
+    color: beige;
+}
+
+body{
+    background:linear-gradient(DarkSlateGrey,FireBrick ,DarkRed,black)
+}
+
+@media screen and (max-width:480px) {
+    
+
+    .lista{
+        position: static;
+    }
+    
+    
+    
+    
+    
+}
+
+
+  
+
+    
